@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailsHirosActivity">
+
+    <ImageView
+        android:id="@+id/ivImgDetail"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvTitleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivImgDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_toStartOf="@+id/tvRetingDetail"
+        android:text="Title Hiros"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRetingDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivImgDetail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:drawableLeft="@drawable/ic_baseline_star_24"
+        android:text="4.0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleDetail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:text="about" />
+
+    <TextView
+        android:id="@+id/tvDecriptionDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAbout"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:text="Descriptions"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+</RelativeLayout>
