@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StadyCase09">
         <activity
+            android:label="Judul"
             android:name=".activity.DetailsHirosActivity"
             android:exported="true" />
         <activity
+            android:label="Login"
             android:name=".activity.LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -22,8 +24,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:label="Hiro Nusantara"
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

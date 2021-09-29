@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.os.Bundle;
 
 import com.nuryadincjr.stadycase09.databinding.ActivityMainBinding;
@@ -15,6 +17,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    private ArrayList<Hiros> data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,24 +27,39 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        String lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";
-        ArrayList<Hiros> data = new ArrayList<>();
-        data.add(new Hiros(R.drawable.img1,
-                "Gatot Kaca", "4.0",
-                lorem));
-        data.add(new Hiros(R.drawable.img2,
-                "Nuryadin", "5.0",
-                lorem));
-        data.add(new Hiros(R.drawable.img3,
-                "Spaider-man", "4.0",
-                lorem));
-        data.add(new Hiros(R.drawable.img4,
-                "Gatot Kaca", "4.0",
-                lorem));
+        getHios();
 
         HiroAdapter adapter = new HiroAdapter(data, this);
         binding.rvHero.setLayoutManager(new GridLayoutManager(this, 2));
-
         binding.rvHero.setAdapter(adapter);
+    }
+
+
+    private void getHios() {
+        if(data == null) {
+            String[] title, description, reting, platform, metascore, fenre, genre, realise, developer;
+
+            final TypedArray img = getResources().obtainTypedArray(R.array.hiro_image);
+
+            title = getData(R.array.hiro_title);
+            reting = getData(R.array.hiro_reting);
+            description = getData(R.array.hiro_detail);
+            platform = getData(R.array.hiro_platform);
+            metascore = getData(R.array.hiro_metascore);
+            genre = getData(R.array.hiro_genre);
+            realise = getData(R.array.hiro_realise_date);
+            developer = getData(R.array.hiro_develover);
+
+            data = new ArrayList<Hiros>();
+            for (int i=0; i < title.length; i++) {
+                data.add(new Hiros(img.getResourceId(i, -1),
+                        title[i], reting[i], description[i], platform[i],
+                        metascore[i], genre[i], realise[i], developer[i]));
+            }
+        }
+    }
+
+    private String[] getData(int in) {
+        return getResources().getStringArray(in);
     }
 }

@@ -3,4 +3,184 @@
     <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="metascore">Metascore</string>
+    <string name="genre">Genre</string>
+    <string name="platform">Platform</string>
+    <string name="realise_date">Realise Date</string>
+    <string name="_4_0">4.0</string>
+    <string name="descriptions">Descriptions</string>
+    <string name="about">about</string>
+    <string name="develover">Develover</string>
+    <string name="title_hiros">Title Hiros</string>
+
+    <string-array name="hiro_reting">
+        <item>5.0</item>
+        <item>4.0</item>
+        <item>3.9</item>
+        <item>4.5</item>
+        <item>5.0</item>
+        <item>4.0</item>
+        <item>5.0</item>
+        <item>4.5</item>
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>4.5</item>
+        <item>5.0</item>
+        <item>5.0</item>
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>5.0</item>
+    </string-array>
+
+    <string-array name="hiro_title">
+        <item>Gundala</item>
+        <item>Volt</item>
+        <item>Sri Asi</item>
+        <item>Saras 008</item>
+        <item>Godam</item>
+        <item>Gatot Kaca</item>
+        <item>Tira</item>
+        <item>Zentoro</item>
+        <item>Aquarus</item>
+        <item>Sembrani</item>
+        <item>Kalong</item>
+        <item>Caroq</item>
+        <item>Merpati</item>
+        <item>Pangeran Mlaar</item>
+        <item>Maza</item>
+        <item>Wiro Sableng</item>
+    </string-array>
+
+    <string-array name="hiro_image">
+        <item>@drawable/gundala</item>
+        <item>@drawable/volt</item>
+        <item>@drawable/sri_asih</item>
+        <item>@drawable/saras_008</item>
+        <item>@drawable/godam</item>
+        <item>@drawable/gatotkaca</item>
+        <item>@drawable/tira</item>
+        <item>@drawable/zentoro</item>
+        <item>@drawable/aquarus</item>
+        <item>@drawable/sembrani</item>
+        <item>@drawable/kalong</item>
+        <item>@drawable/caroq</item>
+        <item>@drawable/merpati</item>
+        <item>@drawable/pangeran_mlaar</item>
+        <item>@drawable/maxa</item>
+        <item>@drawable/wirosableng</item>
+    </string-array>
+
+    <string-array name="hiro_detail">
+        <item>Kekuatan Petir &amp; Lari Secepat Kilat- Gundala merupakan alter ego dari Sancaka, seorang pria yang diangkat menjadi anak Kaisar Kronz, Raja Kerajaan Petir. Gundala dapat mengeluarkan petir dari tangannya dan mampu berlari secepat angin.</item>
+        <item>Volt datang dari Skylar Comics dan menceritakan tentang seorang anak bernama Ruben yang menemukan Mustika Putih. Mustika Putih tersebutlah yang memberikan Ruben kekuatan untuk mengendalikan petir dan listrik.</item>
+        <item>Tidak ada yang bisa mengalahkan Dewi Asih dalam pertempuran karena kekuatannya yang melebihi manusia dan dewa. Menurut komik, tenaga Sri Asih setara dengan 250 pria dewasa. Ia juga bisa berubah menjadi raksasa dan menggandakan diri.</item>
+        <item>Saras merupakan wanita pecinta kucing yang mendapatkan kekuatan ajaib setelah kucingnya mati. Dengan kekuatan dan keterampilan bela dirinya, Saras kemudian memberantas kejahatan dan musuh abadinya, Mister Blek.</item>
+        <item>Awang adalah seorang sopir truk yang diberkati sebuah cincin ajaib dari Bapak Kebenaran. Tidak disangka, cincin tersebut dirasuki sesosok makhluk dari planet lain bernama Godam. Dengan menggunakan cincin tersebut, Awang bisa langsung berubah menjadi Godam, lengkap dengan semua kekuatannya. Godam merupakan salah satu pahlawan Bumilangit yang dapat terbang, kebal peluru, dan memiliki tenaga para dewa.</item>
+        <item>Karakter komik yang akan diadaptasi ke layar lebar tahun 2021 ini terinspirasi dari perwayangan Indonesia. Gatot Kaca memiliki kekuatan kebal, terbang, dan sakti mandraguna. Dalam komiknya, ia akan membela keadilan bersama 5 karakter wayang lainnya, yaitu Arjuna, Nakula, Sadewa, Yudhistira, dan Bima.</item>
+        <item>Tira merupakan alter ego dari Susie, seorang mahasiswi kaya raya yang jago seni bela diri. Kekuatan Tira tidak hanya terletak pada kepintarannya, tetapi juga kemampuannya dalam memanggil 9 roh naga sakti. Roh-roh tersebut kemudian dapat berubah menjadi raksasa mengerikan yang akan mengikuti segala kemauan Tira. Dalam pertempuran, Tira selalu berada di samping Godam, Sri Asih, Gundala, Aquanus, dan Merpati. Semuanya merupakan anggota dari perkumpulan superhero Indonesia bernama Patriot.</item>
+        <item>Bukannya superhero, tampilan serba hitam Zantoro justru terlihat bagaikan villain atau anti-hero pada film-film superhero Barat. Tapi jangan nilai dari luarnya saja, ternyata Zantoro merupakan superhero Indonesia pembela kebenaran yang sangat ahli menggunakan dan membuat berbagai jenis senjata tajam.</item>
+        <item>diceritakan sebagai sosok misterius dari planet Zyba yang dapat hidup di darat maupun di air. Aquanus memiliki kekuatan super dapat bernapas di dalam air dan memancarkan sinar penghancur yang sangat kuat.</item>
+        <item>Sembrani memiliki kekuatan untuk menetralisir medan magnet, listrik, dan racun, serta memiliki kemampuan untuk terbang. Tangguh yang merupakan sosok asli dari Sembrani mendapatkan kekuatan dari panglima perang luar angkasa, Otohrb yang terdampar di Pegunungan Dieng melalui sebuah kalung ajaib.</item>
+        <item>Dari tampilannya, ia mirip seperti Batman versi cilik. Layaknya seekor kelelawar, Kalong punya kekuatan super dapat terbang dan berkomunikasi dengan hewan. Tak hanya itu, superhero cilik ini juga kebal peluru dan tusukan senjata tajam.</item>
+        <item>Dalam menjalankan aksinya, ia menggunakan 2 bilah celurit panjang yang memiliki kekuatan sakti. Ia juga menguasai ilmu bela diri dan memiliki kemampuan sihir yang membantunya menghadapi musuh-musuhnya, terutama Si Bengis dan Si Tangan Empat.</item>
+        <item>Nama Asli merpati adalah Sedhah Esti Wulan, seorang wartawati yang mendapat kekuatan dari Ratu Merpati setelah berusaha menyelamatkan ayahnya yang terjun ke jurang. Merpati memiliki kemampuan terbang, bela diri, dan mendeteksi arah. Wah, bakal menyaingi kisah romantis Tony Stark dan Pepper Potts nih!</item>
+        <item>Pangeran Mlaar adalah putra mahkota dari kerajaan di planet Covox yang melarikan diri setelah mengetahui ayahnya terbunuh oleh komplotan Menteri Telern dan Putri Kepala Perak. Kekuatan dari Pangeran Mlaar adalah memiliki tubuh yang elastis dan membuatnya bisa melar dalam batas tertentu</item>
+        <item>Maza disebut sebagai pelindung dari yang lemah dan tak berrsalah. Ia memiliki nama asli Kanigara, yang bisa merubah dirinya menjadi Maza sewaktu-waktu ia membutuhkannya. Ia juga memiliki senjata yang mampu mengeluarkan Jin Kartubi.</item>
+        <item>Selain menguasai ilmu bela diri yang dilatih oleh gurunya, Sinto Gendeng, Wiro Sableng juga memiliki senjata sakti bernama Kapak Maut Naga Geni 212. Maka nggak heran kalau Wiro Sableng sering juga disebut sebagai Pendekar 212, geng.</item>
+    </string-array>
+
+    <string-array name="hiro_platform">
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string-array name="hiro_metascore">
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string-array name="hiro_genre">
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string-array name="hiro_realise_date">
+        <item>1969</item>
+        <item>2012</item>
+        <item>1954</item>
+        <item>1980</item>
+        <item>1969</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>1974</item>
+        <item>1972</item>
+        <item>1996</item>
+        <item>1977</item>
+        <item>1969</item>
+        <item>N/A</item>
+        <item>1989</item>
+    </string-array>
+
+    <string-array name="hiro_develover">
+        <item>Harya Suraminata</item>
+        <item>Aswin Siregar</item>
+        <item>R.A. Kosasih</item>
+        <item>N/A</item>
+        <item>Widodo Noor Slamet</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Widodo Noor Slamet</item>
+        <item>cerita 1000 Pendekar</item>
+        <item>Hasmi</item>
+        <item>Ahmad Thoriq</item>
+        <item>Hasmi</item>
+        <item>Hasmi</item>
+        <item>N/A</item>
+        <item>Bastian Tito</item>
+    </string-array>
 </resources>
