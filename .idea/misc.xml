@@ -3,15 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/drawable/bg_start.xml" value="0.18201754385964913" />
         <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/drawable/btn_enable.xml" value="0.19212962962962962" />
         <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/drawable/ic_baseline_star_12.xml" value="0.19212962962962962" />
         <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.19212962962962962" />
         <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/drawable/selector_btn.xml" value="0.19212962962962962" />
         <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout-v26/activity_details_hiros.xml" value="0.5" />
-        <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout/activity_details_hiros.xml" value="0.33" />
+        <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout/activity_details.xml" value="0.33" />
+        <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout/activity_details_hiros.xml" value="0.1" />
         <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout/activity_login.xml" value="0.12582781456953643" />
         <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
-        <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout/item_hiro.xml" value="0.22" />
+        <entry key="..\:/ProjectMe/Kampus Merdeka/sesi9/StadyCase09/app/src/main/res/layout/item_hiro.xml" value="0.33" />
         <entry key="..\:/ProjectMe/StadyCase09/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21614583333333334" />
         <entry key="..\:/ProjectMe/StadyCase09/app/src/main/res/drawable/bg_rounded.xml" value="0.13518518518518519" />
         <entry key="..\:/ProjectMe/StadyCase09/app/src/main/res/drawable/bg_start.xml" value="0.1" />

@@ -6,215 +6,206 @@
     android:layout_height="match_parent"
     tools:context=".activity.DetailsHirosActivity">
 
-    <ImageView
-        android:id="@+id/ivImgDetail"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="240dp"
-        android:layout_marginBottom="10dp"
-        android:background="@color/gray"
-        android:contentDescription="@string/descriptions"
-        tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvTitleDetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ivImgDetail"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:layout_toStartOf="@+id/tvRetingDetail"
-        android:text="@string/title_hiros"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tvRetingDetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ivImgDetail"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/_4_0"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:drawableStartCompat="@drawable/ic_baseline_star_24" />
+            <ImageView
+                android:id="@+id/ivImgDetail"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/gray"
+                android:contentDescription="@string/descriptions"
+                android:scaleType="centerCrop"
+                tools:ignore="ImageContrastCheck"
+                tools:src="@drawable/placehoredr_photo" />
 
-    <TextView
-        android:id="@+id/tvAbout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvTitleDetail"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/about" />
+            <TextView
+                android:id="@+id/tvTitleDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivImgDetail"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_toStartOf="@+id/tvRetingDetail"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/title_hiros" />
 
-    <TextView
-        android:id="@+id/tvDecriptionDetail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvAbout"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginRight="21dp"
-        android:layout_marginBottom="16dp"
-        android:justificationMode="inter_word"
-        android:text="@string/descriptions"
-        android:textColor="@color/black"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvRetingDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivImgDetail"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_star_24"
+                tools:text="@string/_4_0" />
 
-    <View android:id="@+id/strut"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/tvAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTitleDetail"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/about" />
 
-    <TextView
-        android:id="@+id/tvPlatformView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvDecriptionDetail"
-        android:layout_alignEnd="@id/strut"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/platform" />
+            <TextView
+                android:id="@+id/tvDecriptionDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvAbout"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="@string/descriptions" />
 
-    <TextView
-        android:id="@+id/tvMetascoreView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvDecriptionDetail"
-        android:layout_alignStart="@id/strut"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/metascore" />
+            <View
+                android:id="@+id/strut"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:id="@+id/tvPlatform"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvPlatformView"
-        android:layout_alignEnd="@id/strut"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/platform"
-        android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/tvPlatformView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDecriptionDetail"
+                android:layout_alignEnd="@id/strut"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/platform" />
 
-    <TextView
-        android:id="@+id/tvMetascore"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvMetascoreView"
-        android:layout_alignStart="@id/strut"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/metascore"
-        android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvMetascoreView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDecriptionDetail"
+                android:layout_alignStart="@id/strut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/metascore" />
 
-    <TextView
-        android:id="@+id/tvGenreView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvPlatform"
-        android:layout_alignEnd="@id/strut"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/genre" />
+            <TextView
+                android:id="@+id/tvPlatform"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvPlatformView"
+                android:layout_alignEnd="@id/strut"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"
+                tools:text="@string/platform" />
 
-    <TextView
-        android:id="@+id/tvRealiseDateView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvMetascore"
-        android:layout_alignStart="@id/strut"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/realise_date" />
+            <TextView
+                android:id="@+id/tvMetascore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvMetascoreView"
+                android:layout_alignStart="@id/strut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"
+                tools:text="@string/metascore" />
 
-    <TextView
-        android:id="@+id/tvGenre"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvGenreView"
-        android:layout_alignEnd="@id/strut"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/genre"
-        android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/tvGenreView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvPlatform"
+                android:layout_alignEnd="@id/strut"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/genre" />
 
-    <TextView
-        android:id="@+id/tvRealiseDate"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvRealiseDateView"
-        android:layout_alignStart="@id/strut"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/realise_date"
-        android:layout_marginBottom="16dp"
-        android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvRealiseDateView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvMetascore"
+                android:layout_alignStart="@id/strut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/realise_date" />
 
-    <TextView
-        android:id="@+id/tvDeveloverView1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvGenre"
-        android:layout_alignEnd="@id/strut"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/develover" />
+            <TextView
+                android:id="@+id/tvGenre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvGenreView"
+                android:layout_alignEnd="@id/strut"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"
+                tools:text="@string/genre" />
 
-    <TextView
-        android:id="@+id/tvDeveloverView2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvRealiseDate"
-        android:layout_alignStart="@id/strut"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:text="@string/develover" />
+            <TextView
+                android:id="@+id/tvRealiseDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvRealiseDateView"
+                android:layout_alignStart="@id/strut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"
+                tools:text="@string/realise_date" />
 
-    <TextView
-        android:id="@+id/Develover1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvDeveloverView1"
-        android:layout_alignEnd="@id/strut"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/develover"
-        android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/tvDeveloverView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvGenre"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/develover" />
 
-    <TextView
-        android:id="@+id/Develover2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvDeveloverView2"
-        android:layout_alignStart="@id/strut"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginRight="21dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/develover"
-        android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/Develover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDeveloverView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"
+                tools:text="@string/develover" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

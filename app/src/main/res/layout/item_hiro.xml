@@ -11,11 +11,12 @@
 
     <ImageView
         android:id="@+id/ivHiro"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_below="@+id/tvReting"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/image_hiro"
+        android:scaleType="centerCrop"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -26,7 +27,7 @@
         android:background="@drawable/bg_title"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Judul"
+        tools:text="Judul"
         android:textSize="14sp"
         android:textStyle="bold" />
 
@@ -36,10 +37,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:background="@drawable/bg_start"
-        android:drawableStart="@drawable/ic_baseline_star_12"
         android:gravity="center"
         android:padding="2dp"
-        android:text="4.6"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_star_24"
+        tools:text="4.6" />
 
 </RelativeLayout>

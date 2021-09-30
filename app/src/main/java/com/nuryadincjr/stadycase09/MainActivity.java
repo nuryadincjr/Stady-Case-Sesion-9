@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getHios() {
         if(data == null) {
-            String[] title, description, reting, platform, metascore, fenre, genre, realise, developer;
+            String[] title, description, reting, platform, metascore, genre, realise, developer;
 
             final TypedArray img = getResources().obtainTypedArray(R.array.hiro_image);
 

@@ -35,8 +35,7 @@ public class DetailsHirosActivity extends AppCompatActivity {
         binding.tvMetascore.setText(hiros.getMetascore());
         binding.tvGenre.setText(hiros.getGenre());
         binding.tvRealiseDate.setText(hiros.getRealise());
-        binding.Develover1.setText(hiros.getDeveloper());
-        binding.Develover2.setText("N/A");
+        binding.Develover.setText(hiros.getDeveloper());
     }
 
     @Override

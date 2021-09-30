@@ -12,6 +12,7 @@
     <string name="about">about</string>
     <string name="develover">Develover</string>
     <string name="title_hiros">Title Hiros</string>
+    <string name="image_hiro">image hiro</string>
 
     <string-array name="hiro_reting">
         <item>5.0</item>

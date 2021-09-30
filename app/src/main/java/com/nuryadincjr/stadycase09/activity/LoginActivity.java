@@ -20,19 +20,20 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        getSupportActionBar().setTitle("Login");
+
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.btnLogin.setOnClickListener(view -> {
-            getLogin();
-        });
+        binding.btnLogin.setOnClickListener(view -> getLogin());
     }
 
     private void getLogin() {
-        String email = binding.etEmail.getText().toString();
-        String paswd = binding.etPassword.getText().toString();
-        String userEmail = "nuryadin.cjr@gmail.com";
-        String userPaswd = "12345678";
+        String email, paswd, userEmail, userPaswd;
+        email = binding.etEmail.getText().toString();
+        paswd = binding.etPassword.getText().toString();
+        userEmail = "nuryadin.cjr@gmail.com";
+        userPaswd = "12345678";
 
         if(!email.equals("") || !paswd.equals("")){
             if (email.equals(userEmail) && paswd.equals(userPaswd)) {
