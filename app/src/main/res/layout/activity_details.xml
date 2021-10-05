@@ -11,8 +11,8 @@
         android:id="@+id/ivImgDetail"
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:scaleType="fitCenter"
         android:background="@color/gray"
+        android:scaleType="fitCenter"
         tools:src="@drawable/placehoredr_photo" />
 
     <ScrollView
